@@ -1,0 +1,71 @@
+body {
+  background-color: lightblue;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  max-width: 350px;
+  margin: 40px auto;
+  padding: 2em 1.5em;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+}
+
+.card img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1.2em auto;
+  border: 3px solid #e0e0e0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: darkblue;
+}
+
+h2 {
+  font-size: 2em;
+  color: slategray;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.2em 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  align-items: center;
+  text-align: center;
+}
+
+.card ul li a {
+  text-decoration: none;
+  color: #2d3a4a;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.card ul li a:hover {
+  color: #1e90ff;
+}
+
+/* Blank stylesheet */
+
+/* Add this to your HTML <head>:
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+*/
